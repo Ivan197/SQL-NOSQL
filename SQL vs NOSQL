@@ -1,0 +1,22 @@
+SQL frente a NOSQL
+
+Las bases de datos son los contenedores lógicos que permiten el almacenamiento y acceso ordenado a los datos, tanto estructurados (SQL) como no estructurados (NoSQL),
+de una organización.
+
+Las bases de datos SQL son relacionales, es decir, sus datos están relacionados entre sí y se almacenan como texto de manera estructurada en tablas que constan de registros (filas) que es la propia información relacionada entre sí,
+en base a su contexto, y campos (columnas) que son los distintos tipos de información que se relacionan.
+Estas BBDD se gestionan (crear, modificar, eliminar) mediante el lenguaje SQL (Structured Query Language) que también es el lenguaje que se utiliza para añadir, eliminar, consultar y modificar los datos de las distintas tablas.
+Algunos ejemplos de SGBD SQL son: DB2, Postgress, Oracle, MySQL, SQL Server, entre otros.
+
+
+Las bases de datos NoSQL (Not Only SQL) aparecen debido a la necesidad de flexibilidad para almacenar distintos tipos de información no estructurada como documentos (PDF, Word, Excel…), emails, SMS, localizaciones geográficas, audio, vídeo, publicaciones de RRSS… Cuando este volumen de datos es muy grande, es lo que se conoce como Big Data.
+El Big Data, al tratarse de unas cantidades de información muy elevadas, necesita de arquitecturas o esquemas de BBDD con capacidades de alta escalabilidad, rápidas, etc. que las bases de datos SQL no pueden proporcionar.
+Algunos ejemplos de SGBD NoSQL son: MongoDB, Cassandra, CouchDB, Redis, Neo4j, entre otros.
+
+
+Diferencias:
+  Las BBDD SQL almacenan datos de manera estructurada y las NoSQL lo hacen en su formato original.
+  La adaptación a los cambios de las SQL es poca y puede ser compleja. Sin embargo, las NoSQL son totalmente flexibles.
+  Las BBDD SQL están totalmente estandarizadas y las NoSQL carecen de homogeneización.
+  Las SQL se utilizan en múltiples aplicaciones de todo tipo, las NoSQL se emplean principalmente para el Big Data (por ejemplo en redes sociales).
+  Las BBDD SQL proporcionan consistencia en los datos (integridad). Sin embargo, las NoSQL, al buscar rapidez, no ponen el foco en esta característica.
