@@ -20,3 +20,28 @@ Diferencias:
   Las BBDD SQL están totalmente estandarizadas y las NoSQL carecen de homogeneización.
   Las SQL se utilizan en múltiples aplicaciones de todo tipo, las NoSQL se emplean principalmente para el Big Data (por ejemplo en redes sociales).
   Las BBDD SQL proporcionan consistencia en los datos (integridad). Sin embargo, las NoSQL, al buscar rapidez, no ponen el foco en esta característica.
+  
+
+¿CUÁNDO USAR SQL?
+
+SQL vs NoSQL: ¿Cuál debo usar?
+
+No existe una respuesta concreta, porque se presume que cualquier cosa que se deba guardar, debe ser en una base de datos relacional . Sin embargo los programadores podrían sugerir que en gaming o desarrollos de animación, no sería necesario.
+
+En la mayoría de las opiniones, una base de datos relacional puede ser usada los siguientes ámbitos:
+
+    Educación: para estructurar información, y aportar conocimiento lógico al estudiante.
+    Desarrollos web: para mantener jerarquía de datos, siempre y cuando la capacidad de concurrencia, almacenamiento y mantenimiento no sean de considerable dificultad y la información sea consistente .
+    Negocios: inteligencia y análisis de negocios, son temas que requieren el uso de SQL para facilitar el consumo de la información y la identificación de patrones en los datos.
+    Empresarial: porque tanto el software a la medida y el software empresarial, poseen la característica de mantener información con estructura consistente .
+
+
+¿CUÁNDO USAR NOSQL?SQL vs. NoSQL: Which one should I use?
+
+Básicamente se utilizan en:
+
+    Redes sociales: casi obligatorio .
+    Desarrollo Web: debido a la poca uniformidad de la información que se encuentra en Internet; aun cuando también puede emplearse SQL.
+    Desarrollo Móvil: debido a la tendencia – en crecimiento- de Bring Your Own Device.
+    BigData: debido a la administración de grandísimas cantidades de información y su evidente heterogeneida.
+    Cloud (XaaS): “Everything as a service”; NoSQL puede adaptarse casi a cualquier necesidad del cliente, y sus particularidades .
